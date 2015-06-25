@@ -41,7 +41,7 @@ public class StudentDisplay {
 				do {
 					System.out.println("Enter age/ gpa/town");
 					userInput = sc.next();
-
+					//check what the user inputs and throw exception for invalid input
 					if ((!userInput.equalsIgnoreCase("age"))
 							&& (!userInput.equalsIgnoreCase("gpa"))
 							&& (!userInput.equalsIgnoreCase("town"))) {
