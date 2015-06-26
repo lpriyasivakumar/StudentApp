@@ -14,8 +14,9 @@ public class Validator {
 			} else {
 				System.out
 						.println("Error! Invalid double. Enter a double value");
+				sc.nextLine();
 			}
-			//sc.nextLine();
+			sc.nextLine();
 		}
 		return i;
 	}
@@ -50,8 +51,9 @@ public class Validator {
 				isValid = true;
 			} else {
 				System.out.println("Error! Invalid Integer value. Try Again.");
+				sc.nextLine();
 			}
-			//sc.nextLine();
+			sc.nextLine();
 		}
 		return i;
 	}
